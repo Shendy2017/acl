@@ -11,5 +11,23 @@
 
     <artifactId>spring_security</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.skillproject</groupId>
+            <artifactId>service_base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!-- spring security 依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
